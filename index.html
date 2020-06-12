@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/reset.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+
+<body>
+  <div class="component-content-wrapper">
+    <div class="component__item-content-wrapper">
+      <img src="./images/logo.svg" alt="logo" class="logo-name">
+      <div class="component__item-button-content-wrapper">
+        <button id="document-button" class="component-button"></button>
+        <button id="folder-button" class="component-button"></button>
+        <button id="upload-button" class="component-button"></button>
+      </div>
+    </div>
+    <div class="component__item-content-wrapper">
+      <p class="storage-used-message">You’ve used <span class="memory-used" id="memory-used">815 GB</span> of your storage</p>
+      <div class="storage-bar-content-wrapper">
+        <div class="storage-bar">
+          <div class="storage-bar__percentage" id="storage-bar__percentage"></div>
+        </div>
+        <p class="memory-used" id="inital-memory">0 GB</p>
+        <p class="memory-used" id="total-memory">1000 GB</p>
+      </div>
+      <p class="memory-left-message"><span id="memory-left">185</span> GB LEFT</p>
+    </div>
+  </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
